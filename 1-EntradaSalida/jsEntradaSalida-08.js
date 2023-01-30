@@ -5,5 +5,7 @@ mostrar el resto entre el dividendo y el divisor.
 ej.: "El resto es 0 ."*/
 function SacarResto()
 {
-	alert("ok");
+	let number1 = parseInt(txtIdNumeroDividendo.value);
+	let number2 = parseInt(txtIdNumeroDivisor.value);
+	alert(number1 % number2);
 }
